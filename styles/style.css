@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background-color: #F1F1F3;
+}
+
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared Styles */
+section {
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.btn-primary{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 17px 34px;
+    text-align: center;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+}
+
+.title-primary{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.title-secondary{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.description{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+/* Navbar Styles */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 160px;
+  margin-bottom: 20px;
+}
+nav h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+header button {
+  color: #006a50;
+  background-color: transparent;
+  padding: 15px 30px;
+  border: 2px solid #006a50;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Banner Styles */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+}
+.banner-description {
+  margin: 37px 0;
+}
+.banner-description p {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.banner-description h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+
+/* Pillar Styles */
+.pillar-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.pillar{
+    border-radius: 16px;
+    padding: 24px;
+    background-color: #fff;
+}
+.pillar img, h4{
+    margin-bottom: 15px;
+}
