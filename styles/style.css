@@ -55,6 +55,12 @@ section {
   color: rgba(14, 14, 14, 0.8);
 }
 
+.news-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+}
+
 .description {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
@@ -168,15 +174,50 @@ h4 {
 
 .quote-container{
     background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 16px;
     padding: 48px 24px;
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
-    background-position: top left;
+    background-position: 25px 24px;
 }
 .quote-container p{
     margin-bottom: 12px;
 }
 .quote-container h4{
     margin-bottom: 4px;
+}
+
+
+/* Opinion Styles */
+
+.opinion-container{
+    background-color: #fff;
+    padding: 32px;
+}
+
+/* News Styles */
+.news-container{
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 48px;
+    margin-top: 32px;
+    display: flex;
+    gap: 32px;
+}
+
+.news-container .news-image{
+    border-radius: 24px;
+}
+.news-container .date-time{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    gap: 12px;
+    display: flex;
+}
+.news-container .news-description h3, img, .date-time, .description{
+    margin-bottom: 12px;
+} 
+.news-container .news-description p{
+    margin-bottom: 32px;
 }
