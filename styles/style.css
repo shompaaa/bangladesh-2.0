@@ -43,6 +43,11 @@ section {
   border-radius: 8px;
 }
 
+.navbar-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
 .title-primary {
   font-size: 40px;
   font-weight: 700;
@@ -55,10 +60,10 @@ section {
   color: rgba(14, 14, 14, 0.8);
 }
 
-.news-title{
-    font-size: 32px;
-    font-weight: 600;
-    color: rgba(14, 14, 14, 0.8);
+.news-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.8);
 }
 
 .description {
@@ -75,10 +80,7 @@ header nav {
   padding: 24px 160px;
   margin-bottom: 20px;
 }
-nav h3 {
-  font-size: 32px;
-  font-weight: 700;
-}
+
 header button {
   color: #006a50;
   background-color: transparent;
@@ -173,82 +175,84 @@ h4 {
   padding: 32px;
 }
 
-.quote-container{
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 16px;
-    padding: 48px 24px;
-    background-image: url('../assets/quote-bg.png');
-    background-repeat: no-repeat;
-    background-position: 25px 24px;
+.quote-container {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 48px 24px;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 25px 24px;
 }
-.quote-container p{
-    margin-bottom: 12px;
+.quote-container p {
+  margin-bottom: 12px;
 }
-.quote-container h4{
-    margin-bottom: 4px;
+.quote-container h4 {
+  margin-bottom: 4px;
 }
-
 
 /* Opinion Styles */
 
-.opinion-container{
-    background-color: #fff;
-    padding: 32px;
+.opinion-container {
+  background-color: #fff;
+  padding: 32px;
 }
 
 /* News Styles */
-.news-container{
-    background-color: #fff;
-    border-radius: 24px;
-    padding: 48px;
-    margin-top: 32px;
-    display: flex;
-    gap: 32px;
+.news-container {
+  background-color: #fff;
+  border-radius: 24px;
+  padding: 48px;
+  margin-top: 32px;
+  display: flex;
+  gap: 32px;
 }
 
-.news-container .news-image{
-    border-radius: 24px;
+.news-container .news-image {
+  border-radius: 24px;
 }
-.news-container .date-time{
-    font-size: 16px;
-    color: rgba(14, 14, 14, 0.7);
-    gap: 12px;
-    display: flex;
+.news-container .date-time {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  gap: 12px;
+  display: flex;
 }
-.news-container .news-description h3, img, .date-time, .description{
-    margin-bottom: 12px;
-} 
-.news-container .news-description p{
-    margin-bottom: 32px;
+.news-container .news-description h3,
+img,
+.date-time,
+.description {
+  margin-bottom: 12px;
+}
+.news-container .news-description p {
+  margin-bottom: 32px;
 }
 
 /* Donate Styles */
-.money-container{
+.money-container {
   display: flex;
   justify-content: center;
   gap: 24px;
 }
 
-.donate-container h3,p{
+.donate-container h3,
+p {
   text-align: center;
 }
-.donate-container p{
+.donate-container p {
   margin-bottom: 32px;
 }
 
-.money-container .money{
+.money-container .money {
   padding: 40px 40px 8px 40px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
-    background-color: #fff;
-
+  background-color: #fff;
 }
-.money:hover{
-  background-color: #C6E4D6;
+.money:hover {
+  background-color: #c6e4d6;
 }
 
-.donate-container input[type=text]{
+.donate-container input[type="text"] {
   width: 70%;
   margin: 32px 124px;
   text-align: center;
@@ -257,7 +261,52 @@ h4 {
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
-.donate-container .dontae-btn{
+.donate-container .dontae-btn {
   text-align: center;
+}
 
+/* Newsletter Styles */
+.newsletter-container {
+  text-align: center;
+  background-color: #c6e4d6;
+  padding: 80px 100px;
+  border-radius: 24px;
+}
+
+.news-container input {
+  padding: 18px 40px;
+}
+
+.newsletter-container input[type="email"] {
+  width: 50%;
+  margin-bottom: 24px;
+  text-align: start;
+  padding: 17px 34px;
+  font-size: 20px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 8px;
+}
+
+
+/* Footer Styles */
+
+.footer-container{
+  padding: 50px 160px;
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-container hr{
+  color: rgba(14, 14, 14, 0.1);
+}
+
+.footer-container h3, hr{
+  margin-bottom: 16px;
+}
+
+.footer-container .media-container{
+  display: flex;
+  gap: 23px;
+  justify-content: center;
 }
