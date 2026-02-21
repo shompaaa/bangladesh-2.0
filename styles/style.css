@@ -5,8 +5,8 @@
   padding: 0;
 }
 
-body{
-    background-color: #F1F1F3;
+body {
+  background-color: #f1f1f3;
 }
 
 .fira-sans-regular {
@@ -22,32 +22,42 @@ section {
   margin-bottom: 80px;
 }
 
-.btn-primary{
-    color: #fff;
-    font-size: 17px;
-    font-weight: 700;
-    padding: 17px 34px;
-    text-align: center;
-    background-color: #006A50;
-    border: none;
-    border-radius: 8px;
+.btn-primary {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  padding: 17px 34px;
+  text-align: center;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
 }
 
-.title-primary{
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 32px;
+.btn-secondary {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
 }
 
-.title-secondary{
-    font-size: 20px;
-    font-weight: 700;
-    color: rgba(14, 14, 14, 0.8);
+.title-primary {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 32px;
 }
 
-.description{
-    font-size: 16px;
-    color: rgba(14, 14, 14, 0.7);
+.title-secondary {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
 }
 
 /* Navbar Styles */
@@ -94,20 +104,79 @@ header button {
   margin-bottom: 24px;
 }
 
-
 /* Pillar Styles */
-.pillar-container{
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
-
+.pillar-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
 }
 
-.pillar{
-    border-radius: 16px;
-    padding: 24px;
+.pillar {
+  border-radius: 16px;
+  padding: 24px;
+  background-color: #fff;
+}
+.pillar img,
+h4 {
+  margin-bottom: 15px;
+}
+
+/* Vision & Future Styles */
+
+.vision-content-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 32px 0;
+}
+
+.vision-content-container img {
+  margin-bottom: 24px;
+}
+.vision-content-container p {
+  margin-bottom: 24px;
+}
+
+.vision-content-container .btn-1 {
+  background-color: #5490f5;
+}
+
+.vision-content-container .btn-2 {
+  background-color: #09a15c;
+}
+
+.vision-content-container .btn-3 {
+  background-color: #ffc239;
+}
+
+.vision-content-container .vision-content-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.vision-content-container .vision-content-2 {
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  padding: 32px;
+}
+.vision-content-container .vision-content-3 {
+  background-color: #f7ebcf;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.quote-container{
     background-color: #fff;
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
 }
-.pillar img, h4{
-    margin-bottom: 15px;
+.quote-container p{
+    margin-bottom: 12px;
+}
+.quote-container h4{
+    margin-bottom: 4px;
 }
