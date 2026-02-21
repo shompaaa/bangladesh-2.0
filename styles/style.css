@@ -95,6 +95,7 @@ header button {
   justify-content: space-between;
   background-color: #c6e4d6;
   border-radius: 24px;
+  padding: 32px;
 }
 .banner-description {
   margin: 37px 0;
@@ -220,4 +221,43 @@ h4 {
 } 
 .news-container .news-description p{
     margin-bottom: 32px;
+}
+
+/* Donate Styles */
+.money-container{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.donate-container h3,p{
+  text-align: center;
+}
+.donate-container p{
+  margin-bottom: 32px;
+}
+
+.money-container .money{
+  padding: 40px 40px 8px 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+    background-color: #fff;
+
+}
+.money:hover{
+  background-color: #C6E4D6;
+}
+
+.donate-container input[type=text]{
+  width: 70%;
+  margin: 32px 124px;
+  text-align: center;
+  padding: 20px 40px;
+  font-size: 20px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.donate-container .dontae-btn{
+  text-align: center;
+
 }
