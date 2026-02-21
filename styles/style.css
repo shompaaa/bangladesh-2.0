@@ -26,7 +26,7 @@ section {
   color: #fff;
   font-size: 17px;
   font-weight: 700;
-  padding: 17px 34px;
+  padding: 16px 34px;
   text-align: center;
   background-color: #006a50;
   border: none;
@@ -281,10 +281,15 @@ p {
   width: 50%;
   margin-bottom: 24px;
   text-align: start;
-  padding: 17px 34px;
+  padding: 13px 34px;
   font-size: 20px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 8px;
+}
+
+.newsletter-container button{
+  position: relative;
+  right: 156px;
 }
 
 
