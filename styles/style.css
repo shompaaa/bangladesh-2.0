@@ -222,6 +222,7 @@ img,
 .date-time,
 .description {
   margin-bottom: 12px;
+  text-align: left;
 }
 .news-container .news-description p {
   margin-bottom: 32px;
@@ -291,7 +292,6 @@ p {
   position: relative;
   right: 156px;
 }
-
 
 /* Footer Styles */
 
