@@ -191,12 +191,7 @@ h4 {
   margin-bottom: 4px;
 }
 
-/* Opinion Styles */
 
-.opinion-container {
-  background-color: #fff;
-  padding: 32px;
-}
 
 /* News Styles */
 .news-container {
@@ -288,29 +283,30 @@ p {
   border-radius: 8px;
 }
 
-.newsletter-container button{
+.newsletter-container button {
   position: relative;
   right: 156px;
 }
 
 /* Footer Styles */
 
-.footer-container{
+.footer-container {
   padding: 50px 160px;
   background-color: #fff;
   margin: 0 auto;
   text-align: center;
 }
 
-.footer-container hr{
+.footer-container hr {
   color: rgba(14, 14, 14, 0.1);
 }
 
-.footer-container h3, hr{
+.footer-container h3,
+hr {
   margin-bottom: 16px;
 }
 
-.footer-container .media-container{
+.footer-container .media-container {
   display: flex;
   gap: 23px;
   justify-content: center;
